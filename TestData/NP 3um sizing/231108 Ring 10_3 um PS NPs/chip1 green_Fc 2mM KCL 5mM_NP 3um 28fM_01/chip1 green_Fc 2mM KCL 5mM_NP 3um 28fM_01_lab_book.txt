@@ -1,0 +1,6 @@
+_Session lab book file: C:/Users/xya01/EDR/Labbook/labs_08-11-2023_10-27-35.txt
+_Started recording: Wed Nov 8 11:05:48 2023
+_Lab book notes:
+_Range: 20 nA
+_Sampling frequency (SR): 1.25 kHz
+_Final Bandwidth: SR/20
