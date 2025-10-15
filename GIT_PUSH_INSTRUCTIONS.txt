@@ -1,0 +1,162 @@
+================================================================================
+                   GIT PUSH INSTRUCTIONS FOR STEPANALYZER
+================================================================================
+
+REPOSITORY: https://github.com/xiaojunyang0805/2024_StepAnalyzer
+
+WHAT'S READY TO PUSH:
+---------------------
+
+✅ StepAnalyzer_v3/          - Standalone Windows application (~254 MB)
+✅ TestData/                 - Sample data files for users
+✅ SciPaper/                 - Scientific paper and documentation
+✅ README.md                 - Professional repository overview
+✅ .gitignore                - Configured to exclude Script/ folder
+
+WHAT'S EXCLUDED:
+----------------
+
+❌ Script/                   - Development folder (in .gitignore)
+❌ App/                      - Temporary folder (removed)
+❌ StepAnalyzer_v3_Windows/  - Old build (needs manual removal)
+❌ .claude/                  - IDE folder (in .gitignore)
+
+STEPS TO PUSH:
+--------------
+
+1. Initialize Git Repository (if not already done):
+
+   cd D:\24_StepAnalyzer
+   git init
+
+
+2. Add Remote Repository:
+
+   git remote add origin https://github.com/xiaojunyang0805/2024_StepAnalyzer.git
+
+
+3. Remove old folder manually (if still exists):
+
+   # Close any running processes first, then:
+   rm -rf StepAnalyzer_v3_Windows
+
+
+4. Stage Files (respects .gitignore, Script/ will be excluded):
+
+   git add .
+
+
+5. Review What Will Be Committed:
+
+   git status
+
+   # Should show:
+   # - StepAnalyzer_v3/
+   # - TestData/
+   # - SciPaper/
+   # - README.md
+   # - .gitignore
+   #
+   # Should NOT show:
+   # - Script/
+   # - App/
+
+
+6. Commit Changes:
+
+   git commit -m "Release StepAnalyzer v3.0.0 - Standalone Windows Application
+
+   Features:
+   - Standalone Windows executable (no Python required)
+   - Interactive GUI with 4-panel visualization
+   - Batch processing with histogram and Gaussian fitting
+   - Quality review dialog with interactive filtering
+   - Professional Excel/CSV/JSON export
+   - Sample test data and scientific documentation included
+
+   Package size: ~254 MB
+   Windows 10+ (64-bit) compatible"
+
+
+7. Push to GitHub:
+
+   git branch -M main
+   git push -u origin main
+
+   # Or if repository already exists:
+   git push origin main
+
+
+8. Create Release (on GitHub):
+
+   a. Go to: https://github.com/xiaojunyang0805/2024_StepAnalyzer/releases
+   b. Click "Create a new release"
+   c. Tag version: v3.0.0
+   d. Release title: StepAnalyzer v3.0.0
+   e. Description: Copy from CHANGELOG.md
+   f. Upload StepAnalyzer_v3.zip as release asset
+   g. Publish release
+
+
+IMPORTANT NOTES:
+----------------
+
+⚠️ The StepAnalyzer_v3 folder is ~254 MB
+   Git will handle it, but the first push may take several minutes.
+
+⚠️ Make sure StepAnalyzer_v3_Windows is removed before pushing
+   to avoid duplicate large files.
+
+⚠️ Script/ folder is excluded via .gitignore
+   It will NOT be pushed to public repository.
+
+⚠️ For large binary files (StepAnalyzer.exe ~16MB + dependencies),
+   consider using Git LFS if push fails:
+
+   git lfs install
+   git lfs track "*.exe"
+   git lfs track "*.dll"
+   git lfs track "*.pyd"
+
+
+VERIFICATION:
+-------------
+
+After pushing, verify on GitHub:
+1. README.md displays correctly as landing page
+2. StepAnalyzer_v3/ folder is present
+3. TestData/ samples are available
+4. Script/ folder is NOT visible
+5. .gitignore is working correctly
+
+
+CREATING ZIP FOR RELEASE:
+--------------------------
+
+To create StepAnalyzer_v3.zip for GitHub release:
+
+cd D:\24_StepAnalyzer
+zip -r StepAnalyzer_v3.zip StepAnalyzer_v3/
+
+Or use Windows:
+- Right-click StepAnalyzer_v3 folder
+- Send to → Compressed (zipped) folder
+- Upload to GitHub release
+
+
+================================================================================
+                          Repository is Ready!
+================================================================================
+
+Current Structure (will be public):
+  2024_StepAnalyzer/
+  ├── .gitignore
+  ├── README.md
+  ├── StepAnalyzer_v3/      (~254 MB)
+  ├── TestData/
+  └── SciPaper/
+
+Excluded from public (via .gitignore):
+  - Script/                  (development code)
+
+================================================================================

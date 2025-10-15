@@ -1,0 +1,15 @@
+EDH Version: 2.0
+
+Elements e1+
+Channels: 1
+
+Data header file
+
+Amplifier Setup
+Range: 20 nA
+Sampling frequency (SR): 1.25 kHz
+Final Bandwidth: SR/20
+
+Acquisition start time: 16/11/2023 11:48:20.787
+
+Active channels: 1

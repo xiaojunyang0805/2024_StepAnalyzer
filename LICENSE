@@ -1,0 +1,49 @@
+MIT License
+
+Copyright (c) 2025 Xiaojun Yang
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+
+ACADEMIC USE STATEMENT
+
+This is free software for academic and research applications. Researchers
+worldwide are welcome to use this software for their scientific work.
+
+We encourage users to:
+- Cite the original publication when using this software in research
+- Share ideas and suggestions for improvement
+- Contribute to the development of this tool
+
+For questions, suggestions, or collaboration inquiries, please contact:
+📧 xiaojunyang0805@gmail.com
+
+================================================================================
+
+CITATION
+
+If you use this software in your research, please cite:
+
+Moazzenzade, T.; Walstra, T.; Yang, X.; Huskens, J.; Lemay, S. G.
+"Ring Ultramicroelectrodes for Current-Blockade Particle-Impact Electrochemistry"
+Anal. Chem. 2022, 94, 10168–10174.
+DOI: 10.1021/acs.analchem.2c01503
+
+================================================================================
