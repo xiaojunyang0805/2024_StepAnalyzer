@@ -28,7 +28,7 @@ StepAnalyzer is a comprehensive analysis tool for electrochemical step signals f
 3. Double-click `StepAnalyzer.exe`
 4. Start analyzing your data!
 
-See `StepAnalyzer_v3/Quick_Start.txt` for detailed instructions.
+See `StepAnalyzer_v3/Quick_Start.md` for detailed instructions.
 
 
 **Note:** The `Script/` folder contains development code and is not included in public releases.
@@ -74,9 +74,9 @@ See `StepAnalyzer_v3/Quick_Start.txt` for detailed instructions.
 ## Documentation
 
 - **User Guide**: See `StepAnalyzer_v3/README.md`
-- **Quick Start**: See `StepAnalyzer_v3/Quick_Start.txt`
+- **Quick Start**: See `StepAnalyzer_v3/Quick_Start.md`
 - **Example Data**: Available in `TestData/` folder
-- **Scientific Paper**: See `SciPaper/` folder
+- **Scientific Paper**: Moazzenzade et al., Anal. Chem. 2022 ([doi:10.1021/acs.analchem.2c01503](https://doi.org/10.1021/acs.analchem.2c01503))
 
 ## Citation
 
